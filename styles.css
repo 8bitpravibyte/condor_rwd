@@ -1,0 +1,87 @@
+.header {
+  background-color: #03292a;
+}
+.header .logo {
+  font-size: 40px;
+  color: cadetblue;
+  margin-left: 15px;
+}
+.header .nav-item, .header .nav-link {
+  color: white;
+}
+.header .dropdown-item {
+  color: white;
+}
+.header .dropdown-item:hover {
+  color: #066662;
+}
+.header .dropdown-menu {
+  background-color: #066662;
+}
+
+.article {
+  background-color: #1e3a3b;
+  color: white;
+}
+
+.column-right {
+  background: #03292a;
+  border: 6px solid cadetblue;
+  color: white;
+}
+
+.social-icons i {
+  display: inline-block;
+  color: darkgrey;
+  font-size: 1.5em;
+  margin-right: 10px;
+  transition: color 0.2s;
+}
+.social-icons i:hover {
+  color: white;
+}
+
+.categories {
+  text-decoration: underline;
+}
+.categories .nav-link, .categories .nav-item {
+  color: white;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.fixed {
+  position: fixed;
+  top: 150px;
+  left: 0;
+  width: 50px;
+  height: 150px;
+  background-color: #066662;
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  z-index: 999;
+}
+
+.nav-link:hover {
+  color: darkgrey;
+}
+
+footer {
+  background-color: #16a4a2;
+  width: 100%;
+}
+footer .nav-item, footer .nav-link, footer h6 {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .fixed {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,22 @@
+{
+  "name": "condor_rwd_task",
+  "version": "1.0.0",
+  "description": "rwd task",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rwd_task"
+  },
+  "author": "a.nikolov",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^1.0.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
