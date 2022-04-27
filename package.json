@@ -13,7 +13,7 @@
   "author": "a.nikolov",
   "license": "MIT",
   "dependencies": {
-    "grunt": "^1.0.4"
+    "grunt": "^1.5.2"
   },
   "devDependencies": {
     "grunt-contrib-sass": "^1.0.0",
